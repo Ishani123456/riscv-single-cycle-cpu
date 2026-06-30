@@ -40,6 +40,8 @@ Branch support is intentionally scoped to BEQ/BNE. BLT/BGE/BLTU/BGEU
 are not implemented — see Known Limitations.
 
 ## Project Structure
+
+```
 riscv-single-cycle-cpu/
 ├── README.md
 ├── src/
@@ -55,8 +57,9 @@ riscv-single-cycle-cpu/
 │   └── tb_Datapath.v
 ├── program.mem
 └── docs/
-├── BlockDiagram.png
-└── waveform.png
+    ├── BlockDiagram.png
+    └── waveform.png
+```
 ## How to Simulate
 
 This project was developed and verified using [EDA Playground](https://www.edaplayground.com/) 
